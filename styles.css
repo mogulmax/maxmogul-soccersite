@@ -14,6 +14,35 @@
   --maxw:1100px;
 }
 
+
+a i {
+  font-size: 25px;
+  color: #fff; /* adjust color */
+  margin: 10px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+a i.fa-youtube:hover{
+  color: #fb0000; /* e.g. red for YouTube */
+  transform: scale(1.2);
+}
+
+a i.fa-instagram:hover{
+  color: #C13584; /* e.g. red for YouTube */
+  transform: scale(1.2);
+}
+
+a i.fa-linkedin:hover{
+  color: #0077B5; /* e.g. red for YouTube */
+  transform: scale(1.2);
+}
+
+a i.fa-user:hover{
+  color: #6d75ff78; /* e.g. red for YouTube */
+  transform: scale(1.2);
+}
+
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.5}
 img{max-width:100%;height:auto;display:block}
